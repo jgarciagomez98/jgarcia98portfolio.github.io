@@ -1,12 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap');
 :root {
     --font-family: 'Roboto', sans-serif;
     
     --font-size-titles: 32px;
     --font-size-subtitles: 24px;
-    --font-size-navbar: 18px;
+    --font-size-navbar: 16px;
     --font-size-text: 14px;
+    
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+    --font-weight-light: 300;
 
-    --bg-color: rgb(28, 30, 49);
+    --primary-color: #F1FAEE;
+    --secondary-color-dark: #1D3557;
+    --secondary-color-light: #457B9D;
+    --third-color: #A8DADC;
+    --detail-color: #E63946;
+
+    --button-radius: 8px;
+    --button-border-size: 2px; 
+
 }
