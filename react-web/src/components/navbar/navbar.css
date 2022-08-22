@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 1rem 10rem;
+    
+    align-items: center;
+    justify-content: space-between;
+
+    background: #000;
+}
+
+.navbar__links-container {
+    display: flex;
+    color: aliceblue;
+    font-size: var(--font-size-navbar);
+}
+
+.navbar__links-container a {
+    margin: 0 2rem;
+}
+
+.navbar__resume {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: var(--font-size-navbar);
+    cursor: pointer;
+    background-color: #ff567c;
+    border-radius: 8px;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    padding: 0.2rem;
+}

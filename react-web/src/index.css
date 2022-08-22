@@ -2,5 +2,11 @@
 
 :root {
     --font-family: 'Roboto', sans-serif;
+    
+    --font-size-titles: 32px;
+    --font-size-subtitles: 24px;
+    --font-size-navbar: 18px;
+    --font-size-text: 14px;
+
     --bg-color: rgb(28, 30, 49);
 }
