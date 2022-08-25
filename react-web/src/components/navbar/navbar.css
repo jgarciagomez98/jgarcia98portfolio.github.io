@@ -20,7 +20,7 @@
 }
 
 .navbar__links-container a {
-    margin: 0 2rem;
+    margin-right: 3rem;
     transition-duration: 0.2s;
 }
 

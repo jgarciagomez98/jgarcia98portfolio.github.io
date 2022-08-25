@@ -4,10 +4,10 @@ import "./navbar.css";
 const Menu = () => (
   <Fragment>
     <p>
-      <a href="#about">About</a>
+      <a href="#home">Home</a>
     </p>
     <p>
-      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
     </p>
     <p>
       <a href="#work">Work</a>
