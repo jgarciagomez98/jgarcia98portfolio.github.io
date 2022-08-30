@@ -1,0 +1,37 @@
+.skill__container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress__circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: conic-gradient(var(--secondary-color-light) 3.6deg, var(--primary-color) 0deg);
+    border-radius: 50%;
+}
+
+.progress__circle::before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+.progress__value {
+    display: block;
+    margin-top: 8.2rem;
+    z-index: 1;
+}
+
+.skill__logo {
+    width: 80px;
+    z-index: 1;
+}

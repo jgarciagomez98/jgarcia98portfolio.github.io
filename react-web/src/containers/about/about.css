@@ -1,0 +1,48 @@
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.about__container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0;
+    max-width: auto;
+    height: auto;
+
+    color: var(--secondary-color-dark);
+    font-family: var(--font-family);
+}
+
+.about__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__container-info {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 5rem;
+    max-width: 1000px;
+}
+
+.about__container-personal_data {
+    display: flex;
+    justify-content: center;
+}
+
+.about__text {
+    margin-right: 4rem;
+}
+
+.about__container-skills {
+    display: grid;
+    margin: 5rem 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    grid-auto-rows: minmax(100px, auto);
+}
+

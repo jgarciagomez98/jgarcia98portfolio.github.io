@@ -15,3 +15,9 @@ a {
     cursor: pointer;
     font-family: var(--font-family);
 }
+
+.content__container {
+    display: block;
+    width: auto;
+    height: auto;
+}
