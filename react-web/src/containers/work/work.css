@@ -1,0 +1,27 @@
+.work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+.work__container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-family: var(--font-family);
+    color: var(--secondary-color-dark);
+}
+
+.work__title {
+    margin-bottom: 5rem;
+}
+
+.work__container-projects {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(100px, auto);
+}
