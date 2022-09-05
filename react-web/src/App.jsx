@@ -1,7 +1,7 @@
 import React from "react";
 import "./app.css";
 import { Navbar } from "./components";
-import { Header } from "./containers";
+import { Header, Contact } from "./containers";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <Header />
         <Navbar />
       </div>
+      <Contact />
     </div>
   );
 }
