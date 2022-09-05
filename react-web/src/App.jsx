@@ -1,6 +1,6 @@
 import React from "react";
 import "./app.css";
-import { Navbar } from "./components";
+import { Navbar, Footer } from "./components";
 import { Header, Contact } from "./containers";
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
         <Navbar />
       </div>
       <Contact />
+      <Footer />
     </div>
   );
 }
