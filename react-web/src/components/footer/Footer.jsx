@@ -32,7 +32,6 @@ function Footer() {
     <div className="footer">
       <div className="footer__container">
         <div className="footer__container-logos">
-          {/* TODO: Add GitHub, Linkedin, Twitter logos */}
           <FontAwesomeIcon
             icon={faGithub}
             className="footer__logo fa-github"
