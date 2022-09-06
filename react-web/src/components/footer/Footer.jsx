@@ -40,7 +40,7 @@ function Footer() {
           <FontAwesomeIcon
             icon={faLinkedin}
             className="footer__logo fa-linkedin"
-            onClick={openLink}
+            onClick={openLinkedin}
           />
           <FontAwesomeIcon
             icon={faTwitter}
