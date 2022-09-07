@@ -10,9 +10,7 @@ function App() {
         <Header />
         <Navbar />
       </div>
-      <div className="content__container">
-        <Work />
-      </div>
+      <Work />
     </div>
   );
 }
