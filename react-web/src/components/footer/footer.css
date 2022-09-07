@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color-dark);
+}
+
+.footer__container {
+    display: block;
+    margin: 1rem;
+    text-align: center;
+    font-family: var(--font-family);
+    color: var(--primary-color);
+}
+
+.footer__container-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.footer__logo {
+    margin: 0 1rem;
+    scale: 1.5;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+.footer__logo:hover {
+    color: var(--third-color);
+}

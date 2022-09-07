@@ -1,7 +1,7 @@
 import React from "react";
 import "./app.css";
-import { Navbar } from "./components";
-import { Header, Work } from "./containers";
+import { Navbar, Footer } from "./components";
+import { Header, Contact, Work } from "./containers";
 
 function App() {
   return (
@@ -11,6 +11,8 @@ function App() {
         <Navbar />
       </div>
       <Work />
+      <Contact />
+      <Footer />
     </div>
   );
 }
