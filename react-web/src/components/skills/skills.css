@@ -31,7 +31,12 @@
     z-index: 1;
 }
 
+.skill__container-logo {
+    width: 60px;
+    z-index: 1;
+}
+
 .skill__logo {
-    width: 64px;
+    width: 100%;
     z-index: 1;
 }

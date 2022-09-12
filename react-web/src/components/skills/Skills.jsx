@@ -14,7 +14,9 @@ function Skills(props) {
       >
         <p className="progress__value">{props.value}%</p>
       </div>
-      <img src={props.logo} alt="Unity logo" className="skill__logo" />
+      <div className="skill__container-logo">
+        <img src={props.logo} alt="logo" className="skill__logo" />
+      </div>
     </div>
   );
 }
