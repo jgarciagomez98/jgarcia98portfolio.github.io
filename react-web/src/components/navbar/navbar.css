@@ -1,22 +1,25 @@
 .navbar {
     display: flex;
-    width: auto;
-    height: auto;
+    position: sticky;
+    width: 100%;
+    top: 0;
     padding: 1rem 5rem;
-    
+
     align-items: center;
     justify-content: space-between;
 
-    background: var(--secondary-color-dark);
+    background: var(--background-color);
+    border-bottom: 2px solid var(--primary-color);
+
+    z-index: 99;
 }
 
 .navbar__links-container {
     display: flex;
 
     text-transform: uppercase;
-    color: var(--primary-color);
-    font-size: var(--font-size-navbar);
-    font-weight: var(--font-weight-regular);
+    color: var(--text-color);
+    font-size: var(--font-text-size);
 }
 
 .navbar__links-container a {
@@ -25,7 +28,7 @@
 }
 
 .navbar__links-container a:hover{
-    color: var(--secondary-color-light);
+    color: var(--secondary-color);
 }
 
 .navbar__resume {

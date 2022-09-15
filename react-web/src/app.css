@@ -20,4 +20,5 @@ a {
     display: block;
     width: auto;
     height: auto;
+    background-color: var(--background-color);
 }
