@@ -6,17 +6,16 @@ function Header() {
   return (
     <header className="header">
       <div className="header__container">
-        <div className="header__text">
-          <p className="header__presentation">Hi, my name is</p>
+        <div className="header__container-text">
+          <p className="header__presentation">Hello everyone, my name is</p>
           <h1 className="header__title">Javier Garcia.</h1>
           <h1 className="header__subtitle">And I love videogames.</h1>
-          <p className="header__description">
+          {/* <p className="header__description">
             I'm a junior videogame developer focused on programming and
-            ocasionally designing experiences. Currently, I'm working as a
-            Android developer at <span className="underline">Movetia</span>.
-          </p>
+            ocasionally designing experiences.
+          </p> */}
         </div>
-        <HeaderButton />
+        <HeaderButton message={"Know about me"} />
       </div>
     </header>
   );

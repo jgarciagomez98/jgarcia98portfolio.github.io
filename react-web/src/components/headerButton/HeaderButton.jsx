@@ -3,15 +3,15 @@ import "./headerButton.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-function HeaderButton() {
+function HeaderButton(props) {
   return (
     <div className="header__button">
-      <div className="header__button-container">
-        <p>View my work</p>
+      <a href="#" className="header__button-container">
+        <p>{props.message}</p>
         <div className="header__button-icon">
           <FontAwesomeIcon icon={faArrowRight} />
         </div>
-      </div>
+      </a>
     </div>
   );
 }
