@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap');
 
 :root {
     --font-family: 'Nunito', sans-serif;
+    --font-family: 'Roboto Mono', monospace;
     
     --font-title-size: 76px;
     --font-subtitle-size: 24px;
@@ -19,11 +20,11 @@
 
     --line-spacing: 1.75;
 
-    --background-color: #293462;
+    --background-color: #0A0D22;
     --letter-color: #ffff;
     --primary-color: #1CD6CE;
     --secondary-color: #FEDB39;
-    --third-color: #D61C4E;
+    --third-color: #970000;
 
     --border-radius: 8px;
     --button-border-size: 2px; 

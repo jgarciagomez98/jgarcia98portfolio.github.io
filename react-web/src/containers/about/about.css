@@ -11,7 +11,7 @@
     max-width: auto;
     height: auto;
 
-    color: var(--secondary-color-dark);
+    color: var(--letter-color);
     font-family: var(--font-family);
 }
 
@@ -36,6 +36,11 @@
 
 .about__text {
     margin-right: 4rem;
+    font-size: var(--font-text-size);
+}
+
+.about__text span {
+    color: var(--third-color);
 }
 
 .about__container-skills {

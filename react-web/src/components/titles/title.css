@@ -1,0 +1,20 @@
+.title__container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: var(--letter-color);
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-medium);
+}
+
+.title__underline {
+    position: absolute;
+    width: 80%;
+    height: 4px;
+    top: 3rem;
+    background-color: var(--letter-color);
+}

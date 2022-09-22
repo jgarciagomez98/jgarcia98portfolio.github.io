@@ -6,7 +6,6 @@ function AboutImg() {
   return (
     <div className="about__container-img">
       <img src={FacePicture} className="about__img" alt="FacePicture" />
-      <div className="about__img-border"></div>
     </div>
   );
 }
