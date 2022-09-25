@@ -1,0 +1,1 @@
+export { default as Bankers1 } from "./workImg/Bankers_1.png";
