@@ -32,22 +32,16 @@
 .about__container-personal_data {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .about__text {
+    text-align: justify;
     margin-right: 4rem;
     font-size: var(--font-text-size);
 }
 
 .about__text span {
     color: var(--third-color);
-}
-
-.about__container-skills {
-    display: grid;
-    margin: 5rem;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5rem 0;
-    grid-auto-rows: minmax(100px, auto);
 }
 

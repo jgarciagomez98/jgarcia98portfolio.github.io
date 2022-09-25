@@ -3,18 +3,18 @@ button {
     font-family: var(--font-family);
     color: var(--letter-color);
     text-transform: capitalize;
-    font-size: var(--font-size-text);
+    font-size: var(--font-text-size);
     font-weight: var(--font-weight-regular);
 
     background-color: transparent;
-    border: solid var(--detail-color);
+    border: var(--button-border-size) solid var(--third-color);
     border-radius: var(--border-radius);
-    border-width: 0.15rem;
 
     cursor: pointer;
     transition: 0.2s;
 }
 
 button:hover {
-    background-color: var(--third-color);
+    background: rgba(151, 0, 0, 0.25);
+    box-shadow: 0px 0px 20px var(--third-color);
 }

@@ -14,7 +14,7 @@
     font-size: var(--font-subtitle-size);
 
     color: var(--letter-color);
-    border: 2px solid var(--third-color);
+    border: var(--button-border-size) solid var(--third-color);
     border-radius: var(--border-radius);
     
     padding: 1rem;

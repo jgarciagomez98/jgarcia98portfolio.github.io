@@ -58,7 +58,7 @@
     text-decoration: none;
     text-align: center;
     font-family: var(--font-family);
-    font-size: var(--font-size-navbar);
+    font-size: var(--font-text-size);
     text-transform: uppercase;
 
     cursor: pointer;

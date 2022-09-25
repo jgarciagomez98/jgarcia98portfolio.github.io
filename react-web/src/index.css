@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 :root {
-    --font-family: 'Nunito', sans-serif;
-    --font-family: 'Roboto Mono', monospace;
+    /* --font-family: 'Nunito', sans-serif; */
+    /* --font-family: 'Roboto Mono', monospace; */
+    --font-family: 'Roboto', monospace;
     
     --font-title-size: 76px;
-    --font-subtitle-size: 24px;
-    --font-text-size: 18px;
-
-    --font-size-titles: 56px;
-    --font-size-subtitles: 24px;
-    --font-size-navbar: 18px;
-    --font-size-text: 16px;
+    --font-subtitle-size: 32px;
+    --font-text-size: 20px;
     
     --font-weight-medium: 500;
     --font-weight-regular: 400;

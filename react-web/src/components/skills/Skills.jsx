@@ -4,19 +4,14 @@ import "./skills.css";
 function Skills(props) {
   return (
     <div className="skill__container">
+      <p className="skill__name">{props.name}</p>
       <div
-        className="progress__circle"
+        className="progress__bar"
         style={{
-          background: `conic-gradient(var(--secondary-color-light) ${
-            props.value * 3.6
-          }deg, var(--primary-color) 0deg)`,
+          background: `linear-gradient(0.25turn, var(--third-color) ${props.value}%, rgba(151, 0, 0, 0.25) ${props.value}%)`,
         }}
-      >
-        <p className="progress__value">{props.value}%</p>
-      </div>
-      <div className="skill__container-logo">
-        <img src={props.logo} alt="logo" className="skill__logo" />
-      </div>
+      ></div>
+      <p className="progress__value">{props.value}%</p>
     </div>
   );
 }
