@@ -24,6 +24,8 @@
     --third-color: #970000;
 
     --border-radius: 8px;
-    --button-border-size: 2px; 
+    --button-border-size: 2px;
+    
+    --max-width: 1000px
 
 }

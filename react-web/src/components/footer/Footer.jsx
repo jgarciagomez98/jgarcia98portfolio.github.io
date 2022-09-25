@@ -32,26 +32,35 @@ function Footer() {
     <div className="footer">
       <div className="footer__container">
         <div className="footer__container-logos">
-          <FontAwesomeIcon
-            icon={faGithub}
-            className="footer__logo fa-github"
-            onClick={openGitHub}
-          />
-          <FontAwesomeIcon
-            icon={faLinkedin}
-            className="footer__logo fa-linkedin"
-            onClick={openLinkedin}
-          />
-          <FontAwesomeIcon
-            icon={faTwitter}
-            className="footer__logo fa-twitter"
-            onClick={openTwitter}
-          />
-          <FontAwesomeIcon
-            icon={faInstagram}
-            className="footer__logo fa-instagram"
-            onClick={openInstagram}
-          />
+          <div className="footer__container-logos_logo">
+            <FontAwesomeIcon
+              icon={faGithub}
+              className="footer__logo fa-github"
+              onClick={openGitHub}
+            />
+          </div>
+
+          <div className="footer__container-logos_logo">
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              className="footer__logo fa-linkedin"
+              onClick={openLinkedin}
+            />
+          </div>
+          <div className="footer__container-logos_logo">
+            <FontAwesomeIcon
+              icon={faTwitter}
+              className="footer__logo fa-twitter"
+              onClick={openTwitter}
+            />
+          </div>
+          <div className="footer__container-logos_logo">
+            <FontAwesomeIcon
+              icon={faInstagram}
+              className="footer__logo fa-instagram"
+              onClick={openInstagram}
+            />
+          </div>
         </div>
         <p className="footer__text">Designed & Built by Javier Garcia</p>
       </div>

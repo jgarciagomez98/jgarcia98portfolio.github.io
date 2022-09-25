@@ -7,18 +7,20 @@
 .contact__container {
     display: block;
     margin: 5rem;
-    max-width: 800px;
+    max-width: var(--max-width);
     text-align: center;
     font-family: var(--font-family);
-    font-size: var(--font-size-text);
-    font-weight: var(--font-weight-regular);
-    color: var(--secondary-color-dark);
+    color: var(--letter-color);
 }
 
 .contact__title {
-    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact__description {
-    margin-bottom: 1rem;
+    margin: 3rem;
+    font-size: var(--font-text-size);
+    font-weight: var(--font-weight-regular);
 }
