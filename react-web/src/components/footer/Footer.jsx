@@ -27,6 +27,7 @@ function openInstagram() {
 function openLink(url) {
   window.open(url, "_blank", "noopener,noreferrer");
 }
+
 function Footer() {
   return (
     <div className="footer">

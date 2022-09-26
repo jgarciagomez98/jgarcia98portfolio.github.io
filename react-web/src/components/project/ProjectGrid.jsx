@@ -3,9 +3,9 @@ import "./projectGrid.css";
 import Project from "./Project";
 import { Bankers1 } from "../../assets";
 
-function bankersFunction() {
+const funtionBankers = () => {
   console.log("AAAA");
-}
+};
 
 function ProjectGrid() {
   return (
@@ -15,7 +15,7 @@ function ProjectGrid() {
           img={Bankers1}
           projectName="Bankers & Bonkers"
           engine="Unreal Engine"
-          clickEvent={bankersFunction}
+          clickEvent={funtionBankers}
         />
         <Project
           img={Bankers1}

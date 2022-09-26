@@ -1,6 +1,6 @@
 import React from "react";
 import "./work.css";
-import { ProjectGrid, Title } from "../../components";
+import { ProjectGrid, Title, ProjectOverView } from "../../components";
 
 function Work() {
   return (
@@ -11,6 +11,7 @@ function Work() {
         </div>
         <div className="work__container-projects">
           <ProjectGrid />
+          <ProjectOverView id="3" hasSteam="true" />
         </div>
       </div>
     </div>

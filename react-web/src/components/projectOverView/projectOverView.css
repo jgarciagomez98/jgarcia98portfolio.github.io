@@ -1,0 +1,93 @@
+.project__overview {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.project__overview-container {
+    display: block;
+    position: relative;
+    width: 800px;
+    height: auto;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--border-radius);
+    box-shadow: 0px 0px 10px 3px var(--third-color);
+    background: var(--background-color);
+}
+
+.project__overview-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.project__overview-img_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project__overview-img {
+    width: 100%;
+}
+
+.project__overview-info_container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--letter-color);
+    /* border: 2px solid black ; */
+}
+
+.project__overview-info {
+    display: flex;
+    text-align: justify;
+    margin: 2rem 0;
+    font-size: var(--font-text-size);
+}
+
+.project__overview-roles_title {
+    font-size: var(--font-subtitle-size);
+    margin-bottom: 0.5rem;
+}
+
+.project__overview-roles_list {
+    margin: 0 1rem;
+}
+
+.project__overview-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.social__media-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    margin: 0 1rem;
+    border-radius: 50%;
+}
+
+.media__logo {
+    height: 30px;
+}
+
+.social__media-logo:hover{
+    cursor: pointer;
+    background: var(--third-color);
+}
+

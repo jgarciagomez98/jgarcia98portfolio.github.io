@@ -1,0 +1,34 @@
+[
+  {
+    "id": 0,
+    "title": "Garden World",
+    "info": "Welcome to GardenWorld! Make tons of friends and save nature in this 3D platformer that will take you through all the Universe! Play as Tane, the last Seed of Life, and join the resistance against an army of corrupted creatures in search of your lost parents.",
+    "mainRole": ["Game Designer", "Level Designer", "UI Programmer"],
+    "hasItch": false,
+    "hasSteam": true
+  },
+  {
+    "id": 1,
+    "title": "Egyptian crusaders",
+    "info": "A turn-based-combat game with a procedural dungeon creator.<br><br>With Egyptian esthetic, were you can create your team choosing between 5 clases with diferents abilities.<br><br>Each level is more dificult and diferent from the last one. Your objective is to go as deep as you can. Explore each level, get the key and open the door the the next level!",
+    "mainRole": ["Programmer", "VFX Artist"],
+    "hasItch": false,
+    "hasSteam": true
+  },
+  {
+    "id": 2,
+    "title": "Flag Hunters",
+    "info": "Flag Haunters is a multiplayer game based on the classic game mode of capturing the flag, in Flag Haunters a group of furry animals gather in this exciting battle to see who can capture more flags. A combination of strategy and skill is necessary to win on the different thematic maps and see which animal team is the best.",
+    "mainRole": ["Programmer", "VFX Artist"],
+    "hasItch": false,
+    "hasSteam": true
+  },
+  {
+    "id": 3,
+    "title": "Bankers & Bonkers",
+    "info": "Bankers & Bonkers is a team-based multiplayer game where two teams will fight using power-ups to get the money case found in the map and fill it as much as possible with the money spread around the map. The team that brings more money to their base wins the game.",
+    "mainRole": ["Programmer", "Game Designer", "Level Designer", "VFX Artist"],
+    "hasItch": false,
+    "hasSteam": true
+  }
+]

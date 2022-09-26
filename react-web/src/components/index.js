@@ -8,3 +8,4 @@ export { default as Footer } from './footer/Footer';
 export { default as Title } from './titles/Title';
 export { default as SkillsGrid } from './skills/SkillsGrid';
 export { default as ProjectGrid } from './project/ProjectGrid';
+export { default as ProjectOverView } from './projectOverView/ProjectOverView';
