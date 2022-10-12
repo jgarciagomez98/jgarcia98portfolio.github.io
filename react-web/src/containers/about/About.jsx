@@ -1,12 +1,13 @@
 import React from "react";
+import { useRef } from "react";
 import { AboutImg, SkillsGrid, Title } from "../../components";
 import "./about.css";
 
-function About() {
+function About(props) {
   return (
     <div className="about">
       <div className="about__container">
-        <div className="about__title">
+        <div className="about__title" ref={props.refSection}>
           <Title title="About Me" />
         </div>
         <div className="about__container-info">

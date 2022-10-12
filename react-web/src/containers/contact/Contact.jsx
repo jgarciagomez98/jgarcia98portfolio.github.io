@@ -6,11 +6,11 @@ function openEmail() {
   window.open("mailto:jgarciagomez98@gmail.com?subject=Hi%20buddy!");
 }
 
-function Contact() {
+function Contact(props) {
   return (
     <div className="contact">
       <div className="contact__container">
-        <div className="contact__title">
+        <div className="contact__title" ref={props.refSection}>
           <Title title="Get In Touch" />
         </div>
         <p className="contact__description">
