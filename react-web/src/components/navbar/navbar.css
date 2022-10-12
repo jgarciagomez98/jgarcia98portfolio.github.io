@@ -1,10 +1,9 @@
 .navbar {
     display: flex;
     position: sticky;
+    top: 0px;
     width: 100%;
-    top: 0;
     padding: 1rem 5rem;
-
     align-items: center;
     justify-content: space-between;
 
@@ -18,7 +17,7 @@
     display: flex;
 
     text-transform: uppercase;
-    color: var(--text-color);
+    color: var(--letter-color);
     font-size: var(--font-text-size);
 }
 

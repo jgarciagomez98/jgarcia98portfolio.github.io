@@ -6,10 +6,8 @@ import { About, Header, Contact, Work } from "./containers";
 function App() {
   return (
     <div className="App">
-      <div className="header__container">
-        <Header />
-        <Navbar />
-      </div>
+      <Header />
+      <Navbar />
       <div className="content__container">
         <About />
         <Work />
